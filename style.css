@@ -113,8 +113,6 @@ h1,h2,h3,h4,h5,h6
 .home-button 
 {
 	display:flex;
-	/*justify-content:center;
-	align-items:center;*/
 	margin-top:2rem;
 }
 .home-button a
@@ -1258,11 +1256,11 @@ h1,h2,h3,h4,h5,h6
 {
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:center;
+	justify-content:space-evenly;
 }
 .count-col 
 {
-	width:95%;
+	width:51%;
 	position:relative;
 }
 .client-row 
@@ -1361,6 +1359,11 @@ h1,h2,h3,h4,h5,h6
 {
 	width:95%;
 }
+.address-iconcontent
+{
+	text-indent:.1rem;
+}
+
 .address-col2 
 {
 	width:95%;
@@ -1650,6 +1653,11 @@ h1,h2,h3,h4,h5,h6
 {
 	width:37%;
 }
+.address-iconcontent
+{
+	text-indent:2rem;
+}
+
 .address-col2 
 {
 	width:60%;
